@@ -1,6 +1,3 @@
-// document.querySelector("button").addEventListener("click", function () {
-//   alert("i got clicked");
-// });
 var len = document.querySelectorAll(".drum").length;
 for (var i = 0; i < len; i++) {
   document.querySelectorAll(".drum ")[i].addEventListener("click", function () {
